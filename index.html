@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ninja Sorting</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/cesiumjs/1.78/Build/Cesium/Cesium.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <style>
+  #sortable { list-style-type: none; margin: 0 auto; width: 60%; }
+  #sortable li { margin: 0 auto; height: 108px; width: 369px; }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#sortable" ).sortable();
+    $( "#sortable" ).disableSelection();
+  } );
+  </script>
+</head>
+<body>
+ 
+<ul id="sortable">
+  <li class="ui-state-default"><img src="sort1.png" alt="ninja image piece"></li>
+  <li class="ui-state-default"><img src="sort2.png" alt="ninja image piece"></li>
+  <li class="ui-state-default"><img src="sort3.png" alt="ninja image piece"></li>
+  <li class="ui-state-default"><img src="sort4.png" alt="ninja image piece"></li>
+  <li class="ui-state-default"><img src="sort5.png" alt="ninja image piece"></li>
+</ul>
+ 
+ 
+</body>
+</html>
